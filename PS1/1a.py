@@ -5,6 +5,7 @@ current_savings = 0
 portion_down_payment = 0.25*total_cost  # down payment is 25% of the total cost
 monthly_salary = annual_salary/12       # monthly salary = annual salary/12
 months = 0
+dog = 6
 while current_savings <= portion_down_payment:
         months = months + 1
         current_savings = current_savings + monthly_salary*portion_saved + (current_savings*0.04)/12
